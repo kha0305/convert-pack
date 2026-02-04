@@ -182,5 +182,8 @@ server.listen(PORT, async () => {
 ║     Running at http://localhost:${PORT}     ║
 ╚══════════════════════════════════════════╝
     `);
-  await open(`http://localhost:${PORT}`);
+  // Only open browser in development mode
+  if (process.env.NODE_ENV !== "production") {
+    await open(`http://localhost:${PORT}`);
+  }
 });
