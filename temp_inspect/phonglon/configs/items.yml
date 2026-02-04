@@ -1,0 +1,12 @@
+info:
+  namespace: phonglon
+items:
+        
+  phonglon:
+    display_name: "&fPhóng lợn"
+    resource:
+      material: DIAMOND_SWORD
+      generate: false
+      model_path: phonglon
+    behaviours:
+      hat: true

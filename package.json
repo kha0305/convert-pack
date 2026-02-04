@@ -1,0 +1,26 @@
+{
+  "name": "pack-converter",
+  "version": "1.0.0",
+  "description": "A tool to convert Minecraft resource packs",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "keywords": [
+    "minecraft",
+    "resource-pack",
+    "converter"
+  ],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "adm-zip": "^0.5.10",
+    "archiver": "^7.0.1",
+    "express": "^5.2.1",
+    "fs-extra": "^11.1.1",
+    "multer": "^2.0.2",
+    "open": "^8.4.2",
+    "sharp": "^0.32.6",
+    "socket.io": "^4.8.3"
+  }
+}

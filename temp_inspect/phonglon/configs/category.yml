@@ -1,0 +1,15 @@
+info:
+  namespace: phonglon
+categories:
+  phonglon:
+    permission: phonglon.gui
+    enabled: true
+    name: "&x&0&0&f&f&f&fphonglon"
+    title: ""
+    icon: phonglon:phonglon
+    items:
+      - phonglon:phonglon
+
+    font_image:
+      name: "_iainternal:blank_menu"
+    
